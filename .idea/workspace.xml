@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterVerticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iJfDM0sflVCtwX6ZdCCdMe3fvV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.FirstVertx [:MultiOperation.main()].executor": "Run",
+    "Gradle.FirstVertx [:MultiOperationVerticle.main()].executor": "Run",
+    "Gradle.FirstVertx [:WinnerGreater.main()].executor": "Run",
+    "Gradle.FirstVertx [:WinnerGreeterAsync.main()].executor": "Run",
+    "Gradle.FirstVertx [:WinnergreeterVerticle.main()].executor": "Run",
+    "Gradle.FirstVertx.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/training/FirstJava"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\training\FirstVertx\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MultiOperationVerticle">
+    <configuration name="MultiOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MultiOperation" />
+      <module name="FirstVertx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiOperationVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MultiOperationVerticle" />
+      <module name="FirstVertx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinnerGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.WinnerGreater" />
+      <module name="FirstVertx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinnerGreeterAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.WinnerGreeterAsync" />
+      <module name="FirstVertx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinnerGreeterVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.WinnerGreeterVerticle" />
+      <module name="FirstVertx.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MultiOperationVerticle" />
+        <item itemvalue="Application.WinnerGreeterVerticle" />
+        <item itemvalue="Application.MultiOperation" />
+        <item itemvalue="Application.WinnerGreeterAsync" />
+        <item itemvalue="Application.WinnerGreater" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="" />
+      <created>1719213487402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719213487402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationVerticle.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

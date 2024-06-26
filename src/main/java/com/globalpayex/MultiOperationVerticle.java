@@ -10,10 +10,8 @@ public class MultiOperationVerticle extends AbstractVerticle {
     int b=5;
 
     private static final Logger logger= LoggerFactory.getLogger(MultiOperationVerticle.class);
-
     @Override
     public void start() throws Exception {
-
         vertx.setTimer(5000, id1 -> {
             int result = a + b;
             logger.info("addition is:{}", result);
@@ -30,7 +28,5 @@ public class MultiOperationVerticle extends AbstractVerticle {
         Vertx vertx=Vertx.vertx();
         vertx.deployVerticle(new MultiOperationVerticle());
     }
-
-
-    }
+}
 

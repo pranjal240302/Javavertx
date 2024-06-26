@@ -12,7 +12,6 @@ import java.util.Random;
 
 public class WinnerGreeterVerticle extends AbstractVerticle {
 
-
     private static final Logger logger= LoggerFactory.getLogger(WinnerGreeterVerticle.class);
 
     public static final List<String> students= Arrays.asList(

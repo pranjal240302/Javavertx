@@ -16,9 +16,6 @@ public class WinnerGreeterAsync {
     public static final List<String> students= Arrays.asList(
             "pranjal","kajal","kaveri","nisha"
     );
-
-
-
     public static void main(String[] args) {
         Vertx vertx=Vertx.vertx();
 //        var random=new Random();
@@ -29,6 +26,7 @@ public class WinnerGreeterAsync {
 //        vertx.setTimer(3000,id-> System.out.println("winner"));
 //        vertx.setTimer(6000,id-> System.out.println("is"));
 //        vertx.setTimer(12000,id-> System.out.println(winner));
+
         vertx.setTimer(1000,id-> logger.info("and"));
         vertx.setTimer(2000,id-> logger.info("the"));
         vertx.setTimer(3000,id-> logger.info("winner"));
@@ -43,7 +41,6 @@ public class WinnerGreeterAsync {
         // both below ways is right
 //        vertx.setTimer(14000,id->WinnerGreeterAsync.findRandom());
           vertx.setTimer(14000,WinnerGreeterAsync::findRandom);
-
     }
 
     private static void findRandom(Long aLong) {

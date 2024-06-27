@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="Day 3" />
+    <list default="true" id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="Day 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,11 +70,8 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.Build FirstVertx.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FirstVertx [:DeployerVerticle.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:FiboSeriesVerticle.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:FirstHttpServer.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FirstVertx [:MachineVerticle.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FirstVertx [:MachineVerticle2.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:MultiOperation.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:MultiOperationVerticle.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:MultiOperationsVerticle2.main()].executor&quot;: &quot;Run&quot;,
@@ -88,25 +85,21 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/training/FirstVertx/audio&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/mytraining&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\training\FirstVertx\audio" />
       <recent name="D:\training\FirstVertx\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.globalpayex" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FirstHttpServer">
-    <configuration name="DeployerVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.globalpayex.DeployerVerticle" />
+    <configuration name="FiboSeriesVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.FiboSeriesVerticle" />
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MachineVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MachineVerticle" />
+    <configuration name="MultiOperationsVerticle3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MultiOperationsVerticle3" />
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MachineVerticle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MachineVerticle2" />
+    <configuration name="MultiOperationsVerticle4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.globalpayex.MultiOperationsVerticle4" />
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MachineVerticle2" />
-        <item itemvalue="Application.MachineVerticle" />
-        <item itemvalue="Application.DeployerVerticle" />
         <item itemvalue="Gradle.FirstVertx [dependencies]" />
         <item itemvalue="Application.FirstHttpServer" />
+        <item itemvalue="Application.MultiOperationsVerticle4" />
+        <item itemvalue="Application.FiboSeriesVerticle" />
+        <item itemvalue="Application.MultiOperationsVerticle3" />
       </list>
     </recent_temporary>
   </component>
@@ -210,23 +203,7 @@
       <option name="project" value="LOCAL" />
       <updated>1719374341517</updated>
     </task>
-    <task id="LOCAL-00003" summary="Day 3">
-      <option name="closed" value="true" />
-      <created>1719468448333</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1719468448348</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Day 3">
-      <option name="closed" value="true" />
-      <created>1719504210104</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1719504210104</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,8 +247,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1" />
     <MESSAGE value="Day 2" />
-    <MESSAGE value="Day 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

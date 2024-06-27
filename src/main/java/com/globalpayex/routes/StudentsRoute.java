@@ -22,16 +22,21 @@ public class StudentsRoute {
         mongoClient=MongoClient.createShared(vertx,config);
         router.get("/students").handler(StudentsRoute::getAllStudents);
         router.get("/students/:studentId").handler(StudentsRoute::getStudent);
-        router.post("/students").handler(StudentsRoute::newStudent);
+        router.post("/students")
+                .handler(routingContext->newStudent(routingContext,vertx));   //new student
 
         return router;
 
     }
-
-    private static void newStudent(RoutingContext routingContext) {
+    private static void newStudent(RoutingContext routingContext,Vertx vertx) {
          JsonObject requestJson=routingContext.body().asJsonObject();
          Future<String> future=mongoClient.insert("students",requestJson);
          future.onSuccess(studentId->{
+             requestJson.put("_id",studentId);
+             vertx
+                     .eventBus()
+                             .publish("new.student",
+                                     new JsonObject().put("_id",studentId));
             routingContext
                     .response()
                     .putHeader("Content-Type", "application/json")
@@ -40,7 +45,7 @@ public class StudentsRoute {
          });
 
          future.onFailure(exception->{
-             logger.info("error");
+             logger.info("error {}",exception.getMessage());
 
          });
 

@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="Day 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/FiboSeriesVerticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/FirstHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationsVerticle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationsVerticle3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationsVerticle4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/entities/Book.java" afterDir="false" />
+    <list default="true" id="2ee92d78-b041-42e6-af34-033ee47a4b11" name="Changes" comment="Day 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/routes/AppRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/routes/BooksRoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/routes/StudentsRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/MultiOperationVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterAsync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/WinnerGreeterVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/globalpayex/FirstHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/globalpayex/FirstHttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +76,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build FirstVertx.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:FiboSeriesVerticle.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:FirstHttpServer.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.FirstVertx [:MultiOperation.main()].executor&quot;: &quot;Run&quot;,
@@ -96,7 +93,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/training/FirstVertx&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/mytraining&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -110,7 +107,7 @@
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,7 +120,7 @@
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,7 +133,7 @@
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,7 +146,7 @@
       <module name="FirstVertx.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.globalpayex.*" />
+          <option name="PATTERN" value="com.globalpayex.routes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719241714772</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1719374341517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719374341517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +265,10 @@
           <line>51</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.vertx.core.VertxException" package="io.vertx.core" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
